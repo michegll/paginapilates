@@ -20,7 +20,7 @@
 }
 
 body {
-    font-family: 'Archivo', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-family: 'Poppins', -apple-system, BlinkMacSystemFont, sans-serif;
     background-color: var(--background);
     color: var(--text-primary);
     line-height: 1.6;
@@ -29,8 +29,8 @@ body {
 
 /* Typography */
 h1, h2, h3 {
-    font-family: 'Cormorant Garamond', serif;
-    font-weight: 400;
+    font-family: 'Poppins', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: 600;
     letter-spacing: -0.02em;
 }
 
@@ -78,7 +78,7 @@ h1, h2, h3 {
 }
 
 .logo {
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Poppins', -apple-system, BlinkMacSystemFont, sans-serif;
     font-size: 2rem;
     font-weight: 600;
     color: var(--text-primary);
