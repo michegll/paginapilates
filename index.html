@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beam - Pesas para Gym y Entrenamiento | Blue Zone</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;600;700&family=Cormorant+Garamond:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-left">
+                <button class="menu-toggle" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+            
+            <div class="nav-center">
+                <a href="/" class="logo">Blue Zone</a>
+            </div>
+            
+            <div class="nav-right">
+                <button class="icon-btn search-btn" aria-label="Buscar">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <circle cx="8.5" cy="8.5" r="6" stroke="currentColor" stroke-width="1.5"/>
+                        <path d="M13 13L17 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                    </svg>
+                </button>
+                <button class="icon-btn account-btn" aria-label="Cuenta">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <circle cx="10" cy="6" r="3.5" stroke="currentColor" stroke-width="1.5"/>
+                        <path d="M3 18C3 14.6863 5.68629 12 9 12H11C14.3137 12 17 14.6863 17 18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                    </svg>
+                </button>
+                <button class="icon-btn cart-btn" aria-label="Carrito">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M2 2H3.5L5.5 14H16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <circle cx="7" cy="17" r="1" fill="currentColor"/>
+                        <circle cx="15" cy="17" r="1" fill="currentColor"/>
+                        <path d="M5 4H18L16 11H6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <span class="cart-count">0</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="mobile-menu">
+            <div class="menu-section">
+                <h3>Marcas</h3>
+                <a href="#beam">beam</a>
+                <a href="#jaked-swim">Jaked Swim</a>
+                <a href="#jaked-sport">Jaked Sportswear</a>
+            </div>
+            <div class="menu-section">
+                <a href="#nosotros">Nosotros</a>
+                <a href="#contacto">Contacto</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Banner -->
+    <section class="hero">
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=1600&q=80" alt="Beam Fitness">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">beam</h1>
+            <p class="hero-subtitle">Transforma tu entrenamiento</p>
+        </div>
+    </section>
+
+    <!-- Best Sellers -->
+    <section class="section best-sellers">
+        <div class="container">
+            <h2 class="section-title">Best Sellers</h2>
+            
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="product-images">
+                        <img src="https://images.unsplash.com/photo-1598289431512-b97b0917affc?w=600&q=80" alt="Polainas beam bangs 1 KG" class="product-img">
+                        <div class="product-badges">
+                            <span class="badge badge-popular">Popular</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Polainas | beam bangs 1 KG</h3>
+                        <div class="product-rating">
+                            <span class="stars">★★★★★</span>
+                            <span class="rating-count">(2)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="price">S/. 159.00</span>
+                        </div>
+                        <button class="btn-add-to-cart">Agregar al carrito</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-images">
+                        <img src="https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?w=600&q=80" alt="mat antideslizante beam Yoga Mat" class="product-img">
+                        <div class="product-badges">
+                            <span class="badge badge-bestseller">Best Seller</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">mat antideslizante | beam Yoga Mat</h3>
+                        <div class="product-rating">
+                            <span class="stars">★★★★★</span>
+                            <span class="rating-count">(4)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="price">S/. 199.00</span>
+                        </div>
+                        <button class="btn-add-to-cart">Agregar al carrito</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-images">
+                        <img src="https://images.unsplash.com/photo-1598632640487-6ea4a4e8b6bc?w=600&q=80" alt="bandas elásticas beam power bands" class="product-img">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">bandas elásticas | beam power bands</h3>
+                        <div class="product-rating">
+                            <span class="stars">★★★★★</span>
+                            <span class="rating-count">(1)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="price">S/. 59.00</span>
+                        </div>
+                        <button class="btn-add-to-cart">Agregar al carrito</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-images">
+                        <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=600&q=80" alt="pesas beam bullets 2 KG" class="product-img">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">pesas | beam bullets 2 KG</h3>
+                        <div class="product-rating">
+                            <span class="stars">★★★★★</span>
+                            <span class="rating-count">(1)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="price">S/. 149.00</span>
+                        </div>
+                        <button class="btn-add-to-cart">Agregar al carrito</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sets Bundle -->
+    <section class="section sets-section">
+        <div class="container">
+            <h2 class="section-title">Sets - Bundle & Save</h2>
+            
+            <div class="product-grid">
+                <div class="product-card featured">
+                    <div class="product-images">
+                        <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&q=80" alt="Beam Summer Kit" class="product-img">
+                        <div class="product-badges">
+                            <span class="badge badge-bundle">Bundle</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Beam Summer Kit</h3>
+                        <div class="product-price">
+                            <span class="price">S/. 389.00</span>
+                        </div>
+                        <button class="btn-add-to-cart">Agregar al carrito</button>
+                    </div>
+                </div>
+
+                <div class="product-card featured">
+                    <div class="product-images">
+                        <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?w=600&q=80" alt="Be Amazing Set" class="product-img">
+                        <div class="product-badges">
+                            <span class="badge badge-bundle">Bundle</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Be Amazing Set</h3>
+                        <div class="product-price">
+                            <span class="price">S/. 339.00</span>
+                        </div>
+                        <button class="btn-add-to-cart">Agregar al carrito</button>
+                    </div>
+                </div>
+
+                <div class="product-card featured">
+                    <div class="product-images">
+                        <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=600&q=80" alt="Beam kit 2" class="product-img">
+                        <div class="product-badges">
+                            <span class="badge badge-bundle">Bundle</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Beam kit 2</h3>
+                        <div class="product-price">
+                            <span class="price">S/. 489.00</span>
+                        </div>
+                        <button class="btn-add-to-cart">Agregar al carrito</button>
+                    </div>
+                </div>
+
+                <div class="product-card featured">
+                    <div class="product-images">
+                        <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=600&q=80" alt="Beam Kit 1" class="product-img">
+                        <div class="product-badges">
+                            <span class="badge badge-bundle">Bundle</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Beam Kit 1</h3>
+                        <div class="product-rating">
+                            <span class="stars">★★★★★</span>
+                            <span class="rating-count">(2)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="price">S/. 469.00</span>
+                        </div>
+                        <button class="btn-add-to-cart">Agregar al carrito</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Meet the Squad -->
+    <section class="section squad-section">
+        <div class="container">
+            <h2 class="section-title">Meet the squad - beam props</h2>
+            
+            <!-- Filters -->
+            <div class="filters-container">
+                <button class="filter-toggle">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M2 5H18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                        <path d="M2 10H18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                        <path d="M2 15H18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                        <circle cx="7" cy="5" r="2" fill="currentColor"/>
+                        <circle cx="14" cy="10" r="2" fill="currentColor"/>
+                        <circle cx="10" cy="15" r="2" fill="currentColor"/>
+                    </svg>
+                    Filtrar
+                </button>
+                
+                <div class="filter-tags">
+                    <span class="filter-tag">21 productos</span>
+                </div>
+            </div>
+
+            <!-- All Products Grid -->
+            <div class="product-grid products-full">
+                <div class="product-card">
+                    <div class="product-images">
+                        <img src="https://images.unsplash.com/photo-1598289431512-b97b0917affc?w=600&q=80" alt="Polainas beam bangs 1 KG" class="product-img">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Polainas | beam bangs 1 KG</h3>
+                        <div class="product-rating">
+                            <span class="stars">★★★★★</span>
+                            <span class="rating-count">(2)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="price">S/. 159.00</span>
+                        </div>
+                        <button class="btn-add-to-cart">Agregar al carrito</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-images">
+                        <img src="https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?w=600&q=80" alt="mat antideslizante beam Yoga Mat" class="product-img">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">mat antideslizante | beam Yoga Mat</h3>
+                        <div class="product-rating">
+                            <span class="stars">★★★★★</span>
+                            <span class="rating-count">(4)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="price">S/. 199.00</span>
+                        </div>
+                        <button class="btn-add-to-cart">Agregar al carrito</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-images">
+                        <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&q=80" alt="Yoga mat flow" class="product-img">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Yoga mat flow</h3>
+                        <div class="product-price">
+                            <span class="price">S/. 199.00</span>
+                        </div>
+                        <button class="btn-add-to-cart">Agregar al carrito</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-images">
+                        <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=600&q=80" alt="pesas beam bullets 1 KG" class="product-img">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">pesas | beam bullets 1 KG</h3>
+                        <div class="product-rating">
+                            <span class="stars">★★★★★</span>
+                            <span class="rating-count">(1)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="price">S/. 129.00</span>
+                        </div>
+                        <button class="btn-add-to-cart">Agregar al carrito</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-images">
+                        <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=600&q=80" alt="pesas beam bullets 2 KG" class="product-img">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">pesas | beam bullets 2 KG</h3>
+                        <div class="product-rating">
+                            <span class="stars">★★★★★</span>
+                            <span class="rating-count">(1)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="price">S/. 149.00</span>
+                        </div>
+                        <button class="btn-add-to-cart">Agregar al carrito</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-images">
+                        <img src="https://images.unsplash.com/photo-1598632640487-6ea4a4e8b6bc?w=600&q=80" alt="beam hoola 5lb" class="product-img">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">beam hoola 5lb</h3>
+                        <div class="product-price">
+                            <span class="price">S/. 139.00</span>
+                        </div>
+                        <button class="btn-add-to-cart">Agregar al carrito</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-images">
+                        <img src="https://images.unsplash.com/photo-1598632640487-6ea4a4e8b6bc?w=600&q=80" alt="beam hoola 10lb" class="product-img">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">beam hoola 10lb</h3>
+                        <div class="product-price">
+                            <span class="price">S/. 179.00</span>
+                        </div>
+                        <button class="btn-add-to-cart">Agregar al carrito</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-images">
+                        <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=600&q=80" alt="Lightning beam" class="product-img">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Lightning beam</h3>
+                        <div class="product-rating">
+                            <span class="stars">★★★★★</span>
+                            <span class="rating-count">(1)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="price">S/. 279.00</span>
+                        </div>
+                        <button class="btn-add-to-cart">Agregar al carrito</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Customer Reviews -->
+    <section class="section reviews-section">
+        <div class="container">
+            <div class="reviews-header">
+                <h2 class="section-title">Customers are saying</h2>
+                <div class="reviews-rating">
+                    <span class="reviews-stars">★★★★★</span>
+                    <span class="reviews-score">5.00 (16)</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Enlaces</h3>
+                <a href="#buscar">Buscar</a>
+                <a href="#beam">beam</a>
+                <a href="#jaked-swim">Jaked Swim</a>
+                <a href="#jaked-sport">Jaked Sportswear</a>
+            </div>
+
+            <div class="footer-section">
+                <h3>Contáctanos</h3>
+                <a href="mailto:info@bluezoneperu.com">Correo electrónico</a>
+                <a href="https://www.instagram.com/beam_mindset/" target="_blank" rel="noopener">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                        <rect x="2" y="2" width="16" height="16" rx="4" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                        <circle cx="10" cy="10" r="3.5" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                        <circle cx="15" cy="5" r="1" fill="currentColor"/>
+                    </svg>
+                    Instagram
+                </a>
+            </div>
+
+            <div class="footer-section">
+                <h3>Información</h3>
+                <a href="#privacidad">Política de privacidad</a>
+                <a href="#contacto">Información de contacto</a>
+                <a href="#reembolso">Política de reembolso</a>
+                <a href="#envio">Política de envío</a>
+                <a href="#terminos">Términos del servicio</a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025, Blue Zone</p>
+            <p>Tecnología de Shopify</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
